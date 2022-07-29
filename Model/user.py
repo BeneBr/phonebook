@@ -4,6 +4,8 @@ from dataclasses import dataclass
 
 @dataclass(init=True)
 class User:
+    avatar: str
+    id: str
     name: str
     last_name: str
     age: int
